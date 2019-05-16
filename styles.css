@@ -1,6 +1,20 @@
-body {
+* {
+  box-sizing: border-box;
+}
+
+  body {
   font-family: 'Montserrat', sans-serif;
   background-image: url('background.jpg')
+}
+
+main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-container {
+  width: 50%;
+  height: 100%;
 }
 
 .title {
@@ -23,7 +37,7 @@ body {
  {
   border-radius: 6px;
   border: none;
-  margin-top: 4px;
+  margin-top: 0px;
   margin-left: 10px;
   font-size: 18px;
   width: 150px;
@@ -71,6 +85,7 @@ body {
 .clear-btn,
 .reset-btn,
 .submit-btn {
+  border: none;
   border-radius: 6px;
   cursor: pointer;
   font-size: 18px;
@@ -84,14 +99,39 @@ body {
   width: 200px;
 }
 
+.clear-btn:enabled,
+.reset-btn:enabled {
+  color: #d63d9c;
+}
+
 .handle-error-container {
   display: flex;
 }
 
 .min-error-msg,
 .max-error-msg {
-  color: #e91b0d;
+  color: #ff0000;
   display: inline;
   margin: 25px 25px 10px 0px;
+}
+
+.right-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: -400px;
+}
+
+.right-display {
+  border: 1px solid teal;
+  box-shadow: 5px 5px 5px 5px #2c2a2a;
+  border-radius: 6px;
+  margin-right: 125px;
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.error-message {
+  color: #ff0000;
 }
 
