@@ -79,3 +79,8 @@ body {
   width: 200px;
 }
 
+.error {
+  color: #e91b0d;
+  text-align: center;
+}
+
