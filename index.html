@@ -1,34 +1,41 @@
 <!DOCTYPE html>
 <html>
   <head>
+      <link rel="stylesheet" type="text/css" href="./styles.css">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <meta charset="UTF-8">
-    <title>title</title>
+    <title>Guess Some Numbers</title>
   </head>
   <body>
     <header>
+      <main>
       <h1 class='title'>Guess Some Numbers</h1>
     </header>
-    <form>
-      <input class='min-input'>
-      <input class='max-input'>
+    <form class='range-form'>
+      <p class='min-input-text'>Min range</p>
+      <input class='js-min-input input'>
+      <p class='max-input-text'>Max range</p>
+      <input class='js-max-input input'>
       <button class='update-btn'>
         UPDATE
       </button>
     </form>
-      <hr>
       <section class='range-container'>
         <p class='range-text'>The current range is <span class='min-range-txt'></span> to <span class='max-range-txt'></span></p>
       </section>  
       <p class='guess-text'>Guess</p>
-      <form>
+      <form class='guess-form'>
         <input class='guess-input'>
         <button class='submit-btn'>SUBMIT GUESS</button>
-        <button class='clear-btn'>CLEAR</button>
-        <button class='reset-btn'>RESET</button>
+        <section class='btn-container'>
+          <button class='clear-btn'>CLEAR</button>
+          <button class='reset-btn'>RESET</button>
+      </section>
       </form>
       <section class='right-container'>
         You guessed
         <span>34</span>
       </section>
+    </main>
   </body>
 </html>
