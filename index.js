@@ -18,9 +18,7 @@ submitBtn.addEventListener('click', getUserGuess)
 function enableButtons () {
   if(guessInput.value !== '') {
     resetBtn.removeAttribute('disabled')
-    resetBtn.style.color = '#e91b0d'
     clearBtn.removeAttribute('disabled')
-    clearBtn.style.color = '#e91b0d'
   }
 }
 
