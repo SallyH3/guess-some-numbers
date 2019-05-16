@@ -1,0 +1,72 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-image: url('background.jpg')
+}
+
+.range-form {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.update-btn
+ {
+  border-radius: 6px;
+  border: none;
+  margin-top: 15px;
+  font-size: 18px;
+  width: 150px;
+  height: 35px;
+  cursor: pointer;
+}
+
+.update-btn:hover,
+.submit-btn:hover {
+  background-color: #5ae0e0;
+}
+
+.max-input-text,
+.min-input-text {
+  margin: 10px;
+}
+
+.input {
+  height: 35px;
+  width: 143px;
+}
+
+.guess-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.guess-input {
+  height: 50px;
+  width: 500px;
+}
+
+.submit-btn {
+  width: 480px;
+  height: 50px;
+}
+
+.btn-container {
+  margin-left: 20px;
+}
+
+.clear-btn,
+.reset-btn,
+.submit-btn {
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.clear-btn,
+.reset-btn {
+  color: #d3d3d3;
+  height: 50px;
+  width: 200px;
+}
+
