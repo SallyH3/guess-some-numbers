@@ -45,11 +45,11 @@ function populateRangeText () {
 
 function handleErrorMsg () {
   if(minField.value === '') {
-    document.querySelector('.min-error-msg').innerHTML = `<p class='error'>Please enter a min range</p>`
+    document.querySelector('.min-error-msg').innerHTML = `Please enter a min range`
     minField.style.border = '2px solid #e91b0d'
   }
   if(maxField.value === '') {
-    document.querySelector('.max-error-msg').innerHTML = `<p class='error'>Please enter a max range</p>`
+    document.querySelector('.max-error-msg').innerHTML = `Please enter a max range`
     maxField.style.border = '2px solid #e91b0d'
   }
 }

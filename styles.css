@@ -14,6 +14,11 @@ body {
   margin-top: 20px;
 }
 
+.min-range-txt,
+.max-range-txt {
+  text-decoration: underline;
+}
+
 .update-btn
  {
   border-radius: 6px;
@@ -79,8 +84,14 @@ body {
   width: 200px;
 }
 
-.error {
+.handle-error-container {
+  display: flex;
+}
+
+.min-error-msg,
+.max-error-msg {
   color: #e91b0d;
-  text-align: center;
+  display: inline;
+  margin: 25px 25px 10px 0px;
 }
 
