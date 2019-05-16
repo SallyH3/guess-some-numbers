@@ -3,17 +3,23 @@ body {
   background-image: url('background.jpg')
 }
 
+.title {
+  font-size: 44px;
+}
+
 .range-form {
   display: flex;
-  flex-direction: column;
-  margin: 10px;
+  flex-direction: row;
+  margin: -10px;
+  margin-top: 20px;
 }
 
 .update-btn
  {
   border-radius: 6px;
   border: none;
-  margin-top: 15px;
+  margin-top: 4px;
+  margin-left: 10px;
   font-size: 18px;
   width: 150px;
   height: 35px;
@@ -32,7 +38,8 @@ body {
 
 .input {
   height: 35px;
-  width: 143px;
+  width: 65px;
+  border: 2px solid gray;
 }
 
 .guess-form {
@@ -41,11 +48,13 @@ body {
 }
 
 .guess-input {
+  border: 2px solid gray;
   height: 50px;
   width: 500px;
 }
 
 .submit-btn {
+  border: none;
   width: 480px;
   height: 50px;
 }
