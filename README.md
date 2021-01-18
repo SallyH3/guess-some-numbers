@@ -22,5 +22,5 @@ As a quick one night assignment, I had to redo an old Turing project completely 
 
 ## Author:
 
-[Sally Haefling](https://github.com/SallyHaefling)
+[Sally H](https://github.com/SallyH3)
 
